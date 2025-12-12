@@ -1,36 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gallery – First Class Flooring</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-body{margin:0;font-family:'Inter',sans-serif;color:#333;background:#fff;}
-header{background:#000;color:#fff;padding:25px;text-align:center;border-bottom:2px solid #fff;}
-nav{text-align:center;background:#111;padding:12px 0;}
-nav a{color:#fff;margin:0 15px;text-decoration:none;font-weight:600;}
-.gallery{max-width:1000px;margin:40px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
-.box{height:180px;background:#ddd;border-radius:6px;display:flex;justify-content:center;align-items:center;font-weight:bold;color:#777;}
-footer{background:#111;color:#ccc;text-align:center;padding:15px;}
+.image-grid span{display:block;margin-top:8px;font-weight:800;letter-spacing:0.4px;}
+footer{background:#111;color:#ccc;text-align:center;padding:20px;margin-top:60px;border-top:2px solid #000;}
 </style>
 </head>
 <body>
-<header><h1>Gallery</h1></header>
+<header>
+<img src="assets/logo.png" alt="First Class Flooring Logo">
+<h1>Our Work</h1>
+</header>
 <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
 </nav>
-<div class="gallery">
-    <div class="box">Image 1</div>
-    <div class="box">Image 2</div>
-    <div class="box">Image 3</div>
-    <div class="box">Image 4</div>
+<div class="main-container">
+
+
+<!-- BEFORE & AFTER PROJECTS -->
+<div class="project-box">
+<h2>Before & After – Project 1</h2>
+<div class="image-grid">
+<div>
+<img src="assets/gallery/project1-before.jpg" alt="Before flooring project 1">
+<span>Before</span>
 </div>
-<footer>
-    &copy; 2025 First Class Flooring – Springfield, MO
-</footer>
+<div>
+<img src="assets/gallery/project1-after.jpg" alt="After flooring project 1">
+<span>After</span>
+</div>
+</div>
+</div>
+
+
+<div class="project-box">
+<h2>Before & After – Project 2</h2>
+<div class="image-grid">
+<div>
+<img src="assets/gallery/project2-before.jpg" alt="Before flooring project 2">
+<span>Before</span>
+</div>
+<div>
+<img src="assets/gallery/project2-after.jpg" alt="After flooring project 2">
+<span>After</span>
+</div>
+</div>
+</div>
+
+
+<!-- ADDITIONAL WORK PHOTOS -->
+<div class="project-box">
+<h2>Additional Flooring Projects</h2>
+<div class="image-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+<div><img src="assets/gallery/work-1.jpg" alt="Finished flooring project"></div>
+<div><img src="assets/gallery/work-2.jpg" alt="Finished flooring project"></div>
+<div><img src="assets/gallery/work-3.jpg" alt="Finished flooring project"></div>
+<div><img src="assets/gallery/work-4.jpg" alt="Finished flooring project"></div>
+<div><img src="assets/gallery/work-5.jpg" alt="Finished flooring project"></div>
+<div><img src="assets/gallery/work-6.jpg" alt="Finished flooring project"></div>
+<div><img src="assets/gallery/work-7.jpg" alt="Finished flooring project"></div>
+<div><img src="assets/gallery/work-8.jpg" alt="Finished flooring project"></div>
+</div>
+</div>
+
+
+</div>
+<footer>&copy; 2025 First Class Flooring – Springfield, MO</footer>
 </body>
 </html>
