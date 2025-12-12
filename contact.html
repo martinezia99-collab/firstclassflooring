@@ -3,244 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>First Class Flooring</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<title>Contact – First Class Flooring</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-body{
-  margin:0; padding:0; height:100vh;
-  display:flex; flex-direction:column; justify-content:center; align-items:center;
-  font-family:'Inter',sans-serif;
-  background:#000;
-  background-image: radial-gradient(circle, rgba(40,40,40,0.06) 1px, transparent 1px);
-  background-size:50px 50px;
-  color:#fff;
-  text-align:center;
-}
-
-.logo-img{
-  width:180px;
-  margin-bottom:25px;
-  filter:drop-shadow(0 0 8px rgba(255,255,255,0.3));
-  opacity:0; animation:fadeIn 1.2s forwards; animation-delay:0.2s;
-}
-
-h1{
-  font-size:3rem;
-  font-weight:900;
-  letter-spacing:1px;
-  margin:10px 0;
-  opacity:0; animation:fadeIn 1.2s forwards; animation-delay:0.5s;
-}
-
-p.slogan{
-  font-size:1.3rem;
-  color:#ddd;
-  margin-bottom:40px;
-  opacity:0; animation:fadeIn 1.2s forwards; animation-delay:0.8s;
-}
-
-.nav-buttons a{
-  display:block;
-  width:260px;
-  padding:15px;
-  margin:12px auto;
-  text-decoration:none;
-  font-weight:700;
-  font-size:1.1rem;
-  border-radius:8px;
-  background: linear-gradient(145deg, #777, #444);
-  border:1px solid #000;
-  box-shadow:0 4px 12px rgba(0,0,0,0.4);
-  color:#fff;
-  opacity:0; animation:fadeIn 1.2s forwards;
-  transition:0.25s;
-}
-
-.nav-buttons a:hover{
-  background:#fff;
-  color:#000;
-  transform:translateY(-3px);
-}
-
-footer{
-  position:absolute; bottom:0; width:100%; padding:12px 0;
-  background:#111; color:#ccc; font-size:14px;
-  border-top:2px solid #222;
-}
-
-@keyframes fadeIn{to{opacity:1;}}
-</style>
-</head>
-<body>
-
-<img src="assets/logo.png" alt="First Class Flooring Logo" class="logo-img">
-<h1>First Class Flooring</h1>
-p class="slogan">Quality You Can Stand On</p>
-
-<div class="nav-buttons">
-  <a href="about.html">About Us</a>
-  <a href="services.html">Services</a>
-  <a href="gallery.html">Gallery</a>
-  <a href="contact.html">Contact & Service Areas</a>
-</div>
-
-<footer>&copy; 2025 First Class Flooring – Springfield, MO</footer>
-<section id="contact" class="content-section">
-            <h2>Contact Us</h2>
-            <div class="service-boxes">
-                <div class="service-box">
-                    <h3>Get in Touch</h3>
-                    <p>Have questions or need a quote? We're here to help every step of the way.</p>
-                </div>
-                <div class="service-box">
-                    <h3>Phone</h3>
-                    <p>(417) 000-0000</p>
-                </div>
-                <div class="service-box">
-                    <h3>Email</h3>
-                    <p>info@firstclassflooring.com</p>
-                </div>
-                <div class="service-box">
-                    <h3>Location</h3>
-                    <p>Springfield, Missouri</p>
-                </div>
-            </div>
-        </section>
-
-</body>
-</html>
-
-<!-- SERVICES.HTML UPDATED -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Services – First Class Flooring</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-<style>
-body{
-  margin:0; font-family:'Inter',sans-serif; color:#222; background:#f8f8f8;
-}
-
-header{
-  background:#000;
-  color:#fff;
-  padding:50px 20px 35px;
-  text-align:center;
-  border-bottom:3px solid #fff;
-}
-header img{
-  width:150px;
-  margin-bottom:15px;
-  filter:drop-shadow(0 0 6px rgba(255,255,255,0.3));
-}
-header h1{
-  font-size:2.8rem;
-  font-weight:900;
-  margin:0;
-}
-
-nav{
-  background:#111;
-  padding:15px 0;
-  display:flex;
-  justify-content:center;
-  gap:25px;
-  border-bottom:2px solid #222;
-}
-nav a{
-  color:#fff;
-  text-decoration:none;
-  font-weight:700;
-  font-size:1.05rem;
-  padding:8px 14px;
-  border-radius:6px;
-  transition:0.3s;
-}
-nav a:hover{
-  background:#fff;
-  color:#000;
-}
-
-.main-container{
-  max-width:1050px;
-  margin:50px auto;
-  padding:0 20px;
-  display:flex;
-  flex-direction:column;
-  gap:35px;
-}
-
-.section-box{
-  background:#fff;
-  padding:25px 30px;
-  border-radius:10px;
-  box-shadow:0 3px 10px rgba(0,0,0,0.1);
-  border-left:6px solid #000;
-}
-.section-box h2{
-  font-size:1.9rem;
-  font-weight:800;
-  margin-bottom:15px;
-}
-.section-box ul{
-  list-style: square;
-  padding-left:25px;
-  font-size:1.1rem;
-}
-.section-box ul li{
-  margin-bottom:10px;
-  font-weight:600;
-}
-
-footer{
-  background:#111;
-  color:#ccc;
-  text-align:center;
-  padding:20px;
-  margin-top:50px;
-  border-top:2px solid #000;
-}
+body{margin:0;font-family:'Inter',sans-serif;color:#222;background:#f8f8f8;}
+header{background:#000;color:#fff;padding:50px 20px 35px;text-align:center;border-bottom:3px solid #fff;}
+header img{width:150px;margin-bottom:15px;filter:drop-shadow(0 0 6px rgba(255,255,255,0.3));}
+header h1{font-size:2.8rem;font-weight:900;margin:0;}
+nav{background:#111;padding:15px 0;display:flex;justify-content:center;gap:25px;border-bottom:2px solid #222;flex-wrap:wrap;}
+nav a{color:#fff;text-decoration:none;font-weight:800;font-size:1.05rem;padding:8px 14px;border-radius:6px;transition:0.3s;}
+nav a:hover{background:#fff;color:#000;}
+.main-container{max-width:1050px;margin:50px auto;padding:0 20px;display:flex;flex-direction:column;gap:35px;}
+.section-box{background:#fff;padding:25px 30px;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,0.1);border-left:6px solid #000;}
+.section-box h2{font-size:1.9rem;font-weight:900;margin:0 0 10px;}
+.section-box p{font-size:1.08rem;line-height:1.6;font-weight:600;margin:8px 0;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:12px;}
+.card{background:#fdfdfd;border:1px solid #eee;border-radius:10px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,0.07);}
+.card h3{margin:0 0 8px;font-weight:900;}
+.card p{margin:0;font-weight:700;}
+.service-areas{columns:2;gap:22px;margin:10px 0 0;padding-left:18px;}
+.service-areas li{margin:6px 0;font-weight:700;}
+footer{background:#111;color:#ccc;text-align:center;padding:20px;margin-top:50px;border-top:2px solid #000;}
+@media (max-width:640px){.service-areas{columns:1;}}
 </style>
 </head>
 <body>
 <header>
   <img src="assets/logo.png" alt="First Class Flooring Logo">
-  <h1>Our Services</h1>
+  <h1>Contact & Service Areas</h1>
 </header>
 
 <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
+  <a href="services.html">Services</a>
   <a href="gallery.html">Gallery</a>
-  <a href="contact.html">Contact</a>
 </nav>
 
 <div class="main-container">
-
   <div class="section-box">
-    <h2>What We Offer</h2>
-    <ul>
-      <li>Residential & Commercial Flooring Installation</li>
-      <li>Vinyl, Laminate, Hardwood, Tile, & Carpet</li>
-      <li>Subfloor Repair & Preparation</li>
-      <li>Floor Patching, Leveling, & Replacement</li>
-      <li>Custom Solutions for Any Home or Business</li>
-    </ul>
+    <h2>Contact Information</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Phone</h3>
+        <p>417-440-9448</p>
+      </div>
+      <div class="card">
+        <h3>Email</h3>
+        <p>firstclassflooring@pro.com</p>
+      </div>
+      <div class="card">
+        <h3>Location</h3>
+        <p>Springfield, MO</p>
+      </div>
+      <div class="card">
+        <h3>Hours</h3>
+        <p>Mon–Sat (Call/Text)</p>
+      </div>
+    </div>
   </div>
 
   <div class="section-box">
-    <h2>Why Our Work Stands Out</h2>
-    <ul>
-      <li>Precision craftsmanship backed by years of experience</li>
-      <li>Reliable scheduling and efficient project timelines</li>
-      <li>Honest pricing with no hidden costs</li>
-      <li>Professional, clean, and respectful service</li>
-      <li>Fully committed to customer satisfaction</li>
+    <h2>Service Areas</h2>
+    <p>Serving Springfield and surrounding Southwest Missouri communities.</p>
+    <ul class="service-areas">
+      <li>Springfield</li><li>Nixa</li><li>Ozark</li><li>Republic</li><li>Willard</li>
+      <li>Battlefield</li><li>Rogersville</li><li>Branson</li><li>Bolivar</li><li>Marshfield</li>
+      <li>And surrounding areas</li>
     </ul>
   </div>
-
 </div>
 
 <footer>&copy; 2025 First Class Flooring – Springfield, MO</footer>
